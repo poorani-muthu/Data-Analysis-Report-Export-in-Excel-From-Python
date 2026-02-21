@@ -54,8 +54,11 @@
 
 🔧 Customization
 
-<br>python# Edit these in DashboardConfig.COLORS'primary_blue': '1F4E79'    # Main headers'success_green': '70AD47'   # Safe airlines'danger_red': 'C00000'      
-<br># Risk headers# Column widths (pixels)column_widths = {'A':25.91, 'B':12.64, 'C':13, 'D':11, ...}<br><br>
+<br># python Edit these in DashboardConfig.COLORS 'primary_blue': '1F4E79'    
+<br># Main headers'success_green': '70AD47'   
+<br># Safe airlines'danger_red': 'C00000'      
+<br># Risk headers
+<br># Column widths (pixels) column_widths = {'A':25.91, 'B':12.64, 'C':13, 'D':11, ...}<br><br>
 
 🐛 Troubleshooting
 
