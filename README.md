@@ -1,6 +1,6 @@
 
 **Airline Safety Dashboard Generator**
-Professional single-sheet Excel dashboard with charts, borders, and exact cell layout
+/n Professional single-sheet Excel dashboard with charts, borders, and exact cell layout
 
 🚀 Features
 
