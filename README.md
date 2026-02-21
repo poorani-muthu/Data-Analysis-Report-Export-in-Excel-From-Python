@@ -1,5 +1,5 @@
 
-Airline Safety Dashboard Generator
+**Airline Safety Dashboard Generator**
 Professional single-sheet Excel dashboard with charts, borders, and exact cell layout
 
 🚀 Features
@@ -31,13 +31,14 @@ Output: Airline_Safety_Dashboard_EXACT.xlsx
 
 🔬 Safety Score Calculation
  
-textSafety Score = 100 × (    0.6 × (1 - fatal_rate_00_14/max_rate) +    0.4 × (1 - fatal_acc_rate_00_14/max_acc_rate))Risk Levels:🔴 HIGH:    0-40🟡 MEDIUM: 41-65  🟢 LOW:    66-85✅ SAFE:   86-100
+textSafety Score = 100 × (    0.6 × (1 - fatal_rate_00_14/max_rate) +    0.4 × (1 - fatal_acc_rate_00_14/max_acc_rate))
+Risk Levels:🔴 HIGH:    0-40🟡 MEDIUM: 41-65  🟢 LOW:    66-85✅ SAFE:   86-100
 Where:
-
 fatal_rate_00_14 = fatalities per billion ASK (2000-2014)
 fatal_acc_rate_00_14 = fatal accidents per billion ASK (2000-2014)
 
 🎨 Design Features
+
 Feature	Implementation
 Colors	Primary blue (1F4E79), Success green (70AD47), Danger red (C00000)
 Borders	Thin black borders on all data tables
@@ -47,13 +48,16 @@ Typography	Bold headers (12-20pt), emoji risk indicators
  
 
 📈 Charts
+
 Bar Chart (E18): Top 10 safest airlines by safety score
 Pie Chart (E32): Risk distribution across 4 categories
 
 🔧 Customization
+
  python# Edit these in DashboardConfig.COLORS'primary_blue': '1F4E79'    # Main headers'success_green': '70AD47'   # Safe airlines'danger_red': 'C00000'      # Risk headers# Column widths (pixels)column_widths = {'A':25.91, 'B':12.64, 'C':13, 'D':11, ...}
 
 🐛 Troubleshooting
+
 Issue	Solution
 FileNotFoundError	Download airline-safety.csv to working directory
 MergedCell error	Values set BEFORE merge_cells()
